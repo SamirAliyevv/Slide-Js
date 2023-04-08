@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slides{
+    width: 60%;
+    margin: 30px auto;
+    position: relative;
+}
+.slides img{
+    width: 100%;
+}
+.prevbtn,.nextbtn{
+    position: absolute;
+    top: 50%;
+      transform:translateY(-50%,-50%);    
+      cursor: pointer; 
+      padding: 8px 13px;
+      background-color: #fff;
+      border-radius: 20px;
+      font-size: 20px;
+      
+      
+}
+.nextbtn{
+    right: 10px;
+}
+
+.prevbtn{
+    left: 10px;
+}
+.dt{
+    width: 8px;
+    height: 8px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+     
+
+}
+.dots{
+    padding: 5px 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 3px;
+      margin: 0 auto;
+    left: 33%;
+    cursor: pointer;
+
+}
+
